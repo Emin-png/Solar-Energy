@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Solar Energy Azerbaijan</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>    
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap');
+    *{
+        box-sizing: border-box;
+    }
+    header, section{
+    overflow-x: hidden;
+    }
+    :root{
+    --Single-font:"Singlet", cursive;
+    --Rubik:"Rubik", cursive;
+    --Patua:"Pauta", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(
+        to bottom,
+        #dd2476, #ff512f);
+    --light-gray: rgba(255,255,255,0.7);
+    }
+    header a{
+    font-family: var(--Single-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+    }
+    header{
+    background: #dd2476;
+    background: var(--bggradient);
+    }
+    header .row .col-md-5{
+    padding: 4.2vmin 1vmin;
+    }
+    header .navbar{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    header .row .col-md-7{
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    color: white;
+    font-family: var(--Rubik);
+    }
+    header .row .col-md-5 img{
+    width: 90%;
+    }
+    header .container .col-md-7 h6{
+    padding: 1vmin;
+    letter-spacing: 4px;
+    }
+    header .container .col-md-7 h1{
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+    }
+    header .container .col-md-7 p{
+    padding: 1vmin 5vmin;
+    }
+    nav .logo{
+        float: left;
+    }
+    nav .logo img{
+        height: 80px;
+        transition: .5s;
+    }
+    nav ul{
+        float: right;
+        margin: 0;
+        padding: 0;
+        display: flex
+    } 
+    nav ul li{
+        list-style: none;
+    }
+    nav ul li a{
+        line-height: 80px;
+        color: #262626;
+        padding: 5px 20px;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: .5s;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+        color:#fff;
+        background: #f00;
+    }
+    .section-1 .container h1{
+    font-size: 6vmin;
+    padding-top: 14vmin;
+    }
+    .section-1 .team{
+    padding: 10vmin 4vmin;
+    }
+    .section-1 .card{
+    width: 22rem;
+    margin-top: 10vmin;
+    }
+    .section-1 .card .card-text{
+    padding: 0.5rem;
+    }
+    .section-1 .card .card-body>a{
+    font-size: 1.5em;
+    }
+    .team-row{
+    display: flex;
+    flex-direction: row;
+    }
+    </style>
+</head>
+<body>
+    <header>
+            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+                <div class="logo">
+                    <img src="https://i.ya-webdesign.com/images/royalty-free-clipart-sunshine.png">
+                </div>                    
+                      <ul>
+                        <li><a href="#" class="active"><strong>Home</strong></a></li>
+                        <li><a href="#"><strong>About</strong></a></li>
+                        <li><a href="#"><strong>Panel orientation</strong></a></li>
+                        <li><a href="#"><strong>Terms of contract</strong></a></li>
+                        <li><a href="#"><strong>Contact us</strong></a></li>
+                      </ul>                    
+                  </nav>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-7 col-sm-12">
+                        <h1>Solar Energy in Azerbaijan</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                           Distinctio numquam nisi facilis fuga.
+                           Numquam iure laborum amet aspernatur voluptatem.
+                           Perspiciatis dolor corporis soluta voluptatem numquam modi consequatur animi perferendis. Laboriosam.</p>    
+                    </div>     
+                    <div class="col-md-5 col-sm-12 h-25">
+                        <img src="./PV to car.jpg">
+                    </div>               
+                </div>
+            </div>
+    </header>    
+    <main>
+        <section class="section-1">
+            <div class="container text-center">
+                <h1 class="text-dark">The autors of project</h1>
+            </div>
+            <div class="team-row">
+                <div class="col-md-4 col-12 text-center">
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="./Rauf Gardashov.jpg">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Gardashov Rauf</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Iste repudiandae distinctio tempora accusamus totam corrupti officia,
+                                dolore aliquam esse est iure inventore velit ex at ab amet magnam veniam ipsa!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Murad Eminov</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Odio provident ullam et alias consectetur officia repudiandae placeat itaque
+                                dignissimos blanditiis repellendus distinctio veniam,
+                                neque explicabo error delectus, temporibus impedit expedita.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                        <div class="card mr-2 d-inline-block shadow-lg">
+                            <div class="card-img-top">
+    
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Emin Gardashov</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Odio provident ullam et alias consectetur officia repudiandae placeat itaque
+                                    dignissimos blanditiis repellendus distinctio veniam,
+                                    neque explicabo error delectus, temporibus impedit expedita.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>            
+        </section>
+    </main>
+</body>
+</html>
