@@ -23,7 +23,8 @@
     }
     header{
     background: #dd2476;
-    background: var(--bggradient);
+    background: var(--bggradient);    
+    margin-bottom: 40px;
     }
     header .row .col-md-5{
     padding: 4.2vmin 1vmin;
@@ -64,7 +65,7 @@
         float: right;
         margin: 0;
         padding: 0;
-        display: flex
+        display: flex;
     } 
     nav ul li{
         list-style: none;
@@ -83,9 +84,13 @@
         color:#fff;
         background: #f00;
     }
+    .section-1{
+        background-image: url(https://www.yggdrasilgaming.com/wp-content/uploads/2019/01/cazinocosmos_site_background.jpg);
+    }
     .section-1 .container h1{
     font-size: 6vmin;
-    padding-top: 14vmin;
+    color: whitesmoke;
+    padding-top: 12vmin;
     }
     .section-1 .team{
     padding: 10vmin 4vmin;
